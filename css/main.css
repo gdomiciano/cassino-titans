@@ -55,7 +55,12 @@ header .logo{
 
 .confirm-content{
 	background: url(../img/bg_formArea.jpg) center 0 no-repeat;
-	padding: 114px 0 136px;
+	padding: 74px 0 126px;
+}
+
+.confirm-content .title{
+	font-size: 30px;
+	word-spacing: 0px;
 }
 
 .date{
