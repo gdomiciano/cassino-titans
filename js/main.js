@@ -1,3 +1,12 @@
 $(function(){
-    $("#form-confirm").validate();
+    $("#confirm").validate({
+        rules: {
+            name: {
+                required: true
+                },
+            email: {
+                required: true
+                }
+        }
+    });
 });
