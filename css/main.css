@@ -75,6 +75,10 @@ header .logo{
 	text-align: center
 }
 
+.date.en{
+	padding: 11px 15px 40px;;
+}
+
 .date .day{
 	font-family: 'gotham_bookregular', arial, helvetica, sans-serif;
 	color: 70px;
@@ -91,6 +95,9 @@ header .logo{
 	line-height: 34px;
 	letter-spacing: 2px;
 }
+.date.en .month{
+	font-size: 30px;
+}
 
 .date .hour{
 	font-family: 'gotham_lightregular', arial, helvetica, sans-serif;
@@ -98,6 +105,11 @@ header .logo{
 	font-size: 43px;
 	line-height: 45px;
 	letter-spacing: 2px;
+}
+
+.date.en .hour{
+	font-size: 28px;
+	line-height: 64px;
 }
 
 .form-confirm{
